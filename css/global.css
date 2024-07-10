@@ -1,0 +1,41 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* start scrol bar */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000; 
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(92, 92, 92); 
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255); 
+    border-radius: 5px;
+  }
+  /* end scrol bar */
+  :root{
+    --Gcolor:rgba(0, 255, 234, 0.473);
+  }
+  *:focus,
+  *:visited,*:active,*:link {
+    color: #fff;
+  }
+  body{
+    font-family: 'Readex Pro', sans-serif;
+    background-color: black;
+    color: #fff;
+  
+  }
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }

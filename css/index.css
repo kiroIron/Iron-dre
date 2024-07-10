@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.sec-one{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(120deg, rgba(184, 143, 255, 0.5),
+    rgba(62, 37, 255, 0.237)),url(../IMG);
+    overflow: hidden;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 6.5rem;
+}
+
+.logo img{
+    width: 110px;
+    height: 60px;
+    mix-blend-mode:exclusion;
+    
+}
+.nav-ul li {
+    display: inline-block;
+    margin: 10px 34px;
+    font-size: 20px;
+}
+
+.nav-ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-ul ul li a::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #712077;
+    display: block;
+    margin: auto;
+    transition: 0.6s;
+  }
+  .nav-ul ul li:hover a::after {
+    width: 100%;
+  }
+  
+.head-btn{
+    text-align: center;
+    margin: 12% 0;
+    color: #fff;
+}
+.biceps-logo{
+    mix-blend-mode: multiply;
+ margin-right: 60rem;
+ margin-bottom: 100rem;
+}
+.biceps-logo img{
+    width:rem;
+    height:10rem;
+}
+
+.head-btn{
+text-align: center;
+}
+
+.head-btn h1{
+    font-size:5rem;
+}
+
+.head-btn button a{
+    width: 14rem;
+    height: 3rem;
+    border-radius:1rem ;
+    font-size: 1.5rem;
+    border: none;
+    margin: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+
+}
+ .head-btn button{
+    border-radius: 1rem;
+    border:none;
+ }
+
+ .bic-img {
+
+mix-blend-mode:multiply;
+margin-right: 60rem;
+width: 8rem;
+height: 8rem;
+object-fit: cover;
+ }
+ .bic-img img{
+    margin-top: 10rem;
+ }
+ .h1-ch{
+    
+ }
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font: 1rem;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition:1s;
+    background:rgb(0, 255, 234);
+    margin-bottom: 10rem;
+  }
+  .hero-btn:hover{
+    transition:1s;
+    color:#fff;
+  }
+  .footer{
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+  }
+  .last-sec{
+    overflow: hidden;
+  }
+  .footer ul {
+    background:rgb(0, 255, 234);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    flex-direction:row-reverse;
+    padding: 1rem 0.2rem;
+    overflow: hidden;
+    padding:1rem 0rem ;
+  }
+  .footer li {
+   text-decoration: none;
+   list-style: none;
+   font-size: 1.5rem;
+  
+  }
+  .footer a{
+     text-decoration: none;
+     color:#000;
+  }
